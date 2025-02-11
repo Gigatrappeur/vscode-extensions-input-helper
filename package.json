@@ -4,6 +4,7 @@
   "description": "Add helper with input section in launch.json and tasks.json",
   "version": "0.0.1",
   "license": "MIT",
+  "repository": "https://github.com/Gigatrappeur/vscode-extensions-input-helper.git",
   "engines": {
     "vscode": "^1.54.0"
   },
