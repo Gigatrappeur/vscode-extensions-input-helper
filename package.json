@@ -11,6 +11,7 @@
   "categories": [
     "Other"
   ],
+  "publisher": "gigatrappeur",
   "activationEvents": [
     "onCommand:extension.input-helper.hostname"
   ],
@@ -23,7 +24,9 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
     "test": "vscode-test",
-    "vsce:package": "vsce package"
+    "vsce:package": "vsce package",
+    "vsce:publish": "vsce publish",
+    "vsce:login": "vsce login gigatrappeur"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
